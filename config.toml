@@ -11,14 +11,9 @@ theme = "ananke"
 
 [languages]
 [languages.en]
-title = "READING THE ROOM SINCE 1996"
-weight = 1
-contentDir = "content/en"
-# languageDirection = 'rtl' for Right-To-Left languages
-[languages.pt]
-title = "READING THE ROOM SINCE 1996"
-weight = 2
-contentDir = "content/pt"
+  title = "READING THE ROOM SINCE 1996"
+  weight = 1
+  contentDir = "content"
 
 
 [params]

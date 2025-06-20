@@ -1,19 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>My New Hugo Site</title>
-    <link>https://example.org/</link>
+    <link>https://lire-readtheroom.github.io/</link>
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 15 Jun 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://lire-readtheroom.github.io/index.xml" rel="self" type="application/rss+xml"/>
+    
     <item>
       <title>My First Post</title>
-      <link>https://example.org/my-first-post/</link>
+      <link>https://lire-readtheroom.github.io/my-first-post/</link>
       <pubDate>Sun, 15 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://example.org/my-first-post/</guid>
-      <description>&lt;p&gt;Testing!&lt;/p&gt;</description>
+      <guid>https://lire-readtheroom.github.io/my-first-post/</guid>
+      <description><p>Testing!</p></description>
     </item>
   </channel>
 </rss>

@@ -1,30 +1,38 @@
 baseURL = "https://lire-readtheroom.github.io/"
-SectionPagesMenu = "main"
 languageCode = "en-us"
-googleAnalytics = ""
-enableRobotsTXT = true
-title = ""
+title = "Lïre"
+description = ""
 theme = "ananke"
-
-[pagination]
-  pagerSize = 10
-
-[languages]
-[languages.en]
-  title = "READING THE ROOM SINCE 1996"
-  weight = 1
-  contentDir = "content"
-
+resourceDir = "../resources"
 
 [params]
   author = ""
-  description = ""
-  background_color_class = "bg-white"
-  text_color_class = "text-black"
+  background_color_class = "bg-black"
+  text_color_class = "text-white"
   mainSections = ["posts"]
-  site_logo = "images/logo.png"  # path to your logo inside static/images/
+  site_logo = "images/wlogo.png"  
+  recent_posts_number = 3
 
-[sitemap]
-changefreq = "monthly"
-priority = 0.5
-filename = "sitemap.xml"
+[pagination]
+  pagerSize = 20
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 2
+
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 3
+
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 4

@@ -1,8 +1,10 @@
 ---
 title: "About"
-date: 2025-06-15T22:13:20-03:00
-tags: []
-featured_image: ""
-description: ""
-menu: "main"
+description: "For those who believe data is more than digits."
+featured_image: ''
+omit_header_text: true
+type: page
 ---
+
+{{< figure src="/images/profile.png" title="" >}}
+

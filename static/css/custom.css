@@ -13,4 +13,12 @@ body {
 /* Ensure headings also use Open Sans */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Open Sans', sans-serif !important;
+}
+
+/* Make profile pictures 70% of their current size */
+figure img {
+  width: 70% !important;
+  height: auto !important;
+  display: block !important;
+  margin: 0 auto !important;
 } 

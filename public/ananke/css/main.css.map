@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "main.css",
-	"sourceRoot": "/Users/sijey/Git/lire-readtheroom.github.io",
+	"sourceRoot": "/Users/sijey/git/lire-readtheroom.github.io",
 	"sources": [
 		"ananke/css/main.css"
 	],

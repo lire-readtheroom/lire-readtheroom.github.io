@@ -1,5 +1,7 @@
 ---
 title: "Read The Room"
+date: 2025-01-01
+draft: false
 --- 
 
 We study the world by watching how people move through it.  

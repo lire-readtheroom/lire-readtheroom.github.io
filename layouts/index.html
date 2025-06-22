@@ -1,5 +1,7 @@
 {{ define "main" }}
   <article class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center lh-copy nested-links {{ $.Param "text_color" | compare.Default "mid-gray" }}">
+    <!-- Debug: Content length: {{ len .Content }} -->
+    <!-- Debug: Title: {{ .Title }} -->
     {{ .Content }}
   </article>
 

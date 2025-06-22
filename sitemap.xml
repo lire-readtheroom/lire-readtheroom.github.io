@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
@@ -16,3 +17,6 @@
     <loc>https://example.org/tags/</loc>
   </url>
 </urlset>
+=======
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>https://lire-readtheroom.github.io/about/</loc></url><url><loc>https://lire-readtheroom.github.io/categories/</loc></url><url><loc>https://lire-readtheroom.github.io/contact/</loc></url><url><loc>https://lire-readtheroom.github.io/posts/</loc></url><url><loc>https://lire-readtheroom.github.io/</loc></url><url><loc>https://lire-readtheroom.github.io/tags/</loc></url></urlset>
+>>>>>>> 5e6a6356ceba5ef9ce1f23379f12cdaf4ae1c2ad

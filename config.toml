@@ -1,13 +1,18 @@
 baseURL = "https://lire-readtheroom.github.io/"
 languageCode = "en-us"
 title = "Lïre"
-description = "Reading the Room"
+description = "Read the Room"
 theme = "ananke"
 resourceDir = "../resources"
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [params]
   author = ""
-  description = "Reading the Room"
+  description = "Read the Room"
   background_color_class = "bg-black"
   text_color_class = "text-white"
   mainSections = ["posts"]
@@ -32,8 +37,3 @@ resourceDir = "../resources"
     name = "About"
     url = "/about/"
     weight = 3
-
-  [[menu.main]]
-    name = "Contact"
-    url = "/contact/"
-    weight = 4

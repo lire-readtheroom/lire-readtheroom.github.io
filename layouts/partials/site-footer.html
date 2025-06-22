@@ -2,10 +2,14 @@
   <div class="flex justify-between">
   <div class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3">
     <a class="no-underline white-70 hover-white" href="{{ .Site.Home.Permalink }}" >
+      &copy; {{ with .Site.Copyright | compare.Default .Site.Title }} {{ . | safe.HTML }} {{ now.Format "2006"}} {{ end }}
     </a>
+    <span class="white-70"> | </span>
+    <span class="white-70">All rights reserved</span>
+  </a>
+    <span class="white-70"> | </span>
     <a class="no-underline white-70 hover-white" href="mailto:lire.readtheroom@gmail.com">
       lire.readtheroom@gmail.com
-    </a>
   </div>
     <div>{{ partials.IncludeCached "social/follow.html" . }}</div>
   </div>

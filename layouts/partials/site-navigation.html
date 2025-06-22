@@ -1,4 +1,4 @@
-<nav class="pv1 ph3 ph4-ns" role="navigation">
+<nav class="pv2 ph3 ph4-ns" role="navigation">
   <div class="flex-l center items-center justify-between">
     <a href="{{ .Site.Home.RelPermalink }}" class="f3 fw2 hover-white white-90 dib no-underline">
       {{ with .Site.Params.site_logo }}
@@ -25,4 +25,45 @@
       {{ partials.IncludeCached "social/follow.html" . }}
     </div>
   </div>
-</nav> 
+</nav>
+
+<style>
+  .logo-wrapper {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .protected-logo {
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    pointer-events: none;
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-drag: none;
+  }
+  
+  .logo-copyright-overlay {
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 1px 4px;
+    border-radius: 2px;
+    font-size: 8px;
+    font-weight: bold;
+    pointer-events: none;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+  }
+  
+  .copyright-text {
+    font-family: 'Arial', sans-serif;
+  }
+</style> 

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Read The Room on Lïre</title>
+    <link>https://lire-readtheroom.github.io/</link>
+    <description>Recent content in Read The Room on Lïre</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://lire-readtheroom.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>https://lire-readtheroom.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lire-readtheroom.github.io/about/</guid>
+      <description>&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;https://lire-readtheroom.github.io/images/profile.jpg&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;h4&gt;Hully Rolemberg&lt;/h4&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;I am an econometrician, quantitative researcher and writer. I blend data analysis, behavioral science, and narrative to uncover the patterns behind decisions. I believe research should be rigorous, honest, and quietly transformative.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://lire-readtheroom.github.io/images/bdetail.png&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;h4&gt;Jessy Mutombo&lt;/h4&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;</description>
+    </item>
+    <item>
+      <title>Contact</title>
+      <link>https://lire-readtheroom.github.io/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lire-readtheroom.github.io/contact/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;mailto:lire.readtheroom@gmail.com&#34;&gt;lire.readtheroom@gmail.com&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
